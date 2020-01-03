@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorSplashScreen">#2B2B2B</color>
+    <color name="colorText">#313335</color>
+    <color name="backgroundDrawer">#3C3F41</color>
+    <color name="backgroundMessage">#5B9BD5</color>
+    <color name="messages__page_number">#151515</color>
+    <color name="main__color_main">#37A5DD</color>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="2dip"
+    card_view:cardCornerRadius="4dp"
+    style="@style/MyCardViewStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/wrapper_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dip"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textAlignment="textStart"
+            android:background="#fff"
+            android:gravity="start">
+
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/list_item_message__person_icon"
+                android:layout_width="60dp"
+                android:layout_gravity="start"
+                android:textAlignment="textStart"
+                android:layout_height="60dp" />
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:padding="1dp"
+                    android:id="@+id/list_item_message__user_id"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="5dp"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#151515"/>
+                <TextView
+                    android:padding="1dp"
+                    android:textSize="12sp"
+                    android:id="@+id/list_item_message__content"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="top|start"
+                    android:textAlignment="textStart"
+                    android:textColor="#555555" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/list_item_message__date"/>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:padding="3pt"
+                android:id="@+id/list_item_message__is_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/is_new_3"
+                android:clickable="false"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+
+
+
+    </android.support.v7.widget.CardView>

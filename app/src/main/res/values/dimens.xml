@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--Screen margins for Log In Activity-->
+    <dimen name="tvLogInTM">50dp</dimen>
+    <dimen name="tvLoginTM">20dp</dimen>
+    <dimen name="tvPasswordTM">20dp</dimen>
+    <dimen name="btnOkTM">20dp</dimen>
+    <dimen name="etMainTM">10dp</dimen>
+    <!--Text Size for Log In Activity-->
+    <dimen name="tvLogInSize">18sp</dimen>
+    <dimen name="tvLogInMain">20sp</dimen>
+    <!--Text Size for Lesson Fragment-->
+    <dimen name="tvWorkFragmentMainTS">20sp</dimen>
+    <!--Screen margins for Lesson Fragment-->
+    <dimen name="workFragmentMarginTop">20dp</dimen>
+    <dimen name="workFragmentMarginBottom">40dp</dimen>
+    <!--Screen margins for List item Message-->
+    <dimen name="listItemMessageMarginsTop">25dp</dimen>
+    <!--Screen margins for Fragment Message-->
+    <dimen name="fragmentMessageBtnAddMarginRight">20dp</dimen>
+    <dimen name="fragmentMessageBtnAddMarginBottom">35dp</dimen>
+    <dimen name="fragmentMessageWidth">240dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+</resources>

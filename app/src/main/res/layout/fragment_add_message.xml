@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sUserId"
+        android:layout_weight="0.05"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/subject"
+        android:id="@+id/etAddMessageSubject"/>
+    <EditText
+        android:hint="@string/content"
+        android:textSize="15sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/etAddMessage"
+        android:layout_weight="0.91"/>
+
+    <Button
+        android:text="@string/btnAddMessage"
+        android:layout_width="141dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:background="@color/main__color_main"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddMessage"/>
+</LinearLayout>
