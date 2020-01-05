@@ -1,5 +1,5 @@
 # Diary Cloud
- - android client for schools online diaries 
+ - android client for schools' online diaries 
 
 I wrote this application in 2017 year for Samsung IT School contest, in my school time..
 
